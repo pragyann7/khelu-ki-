@@ -9,12 +9,12 @@ const Home = () => {
                 <h2 className="text-center mb-13">Should I play?</h2>
 
                 <div className="flex flex-col items-center gap-4">
-                    <button className="py-2 px-7 bg-black text-white rounded-2xl hover:scale-105 transition-transform">
+                    <a href='/taas' className="py-2 px-7 bg-black text-white rounded-2xl hover:scale-105 transition-transform cursor-pointer">
                         Taas
-                    </button>
-                    <button className="py-2 px-7 bg-black text-white rounded-2xl hover:scale-105 transition-transform">
+                    </a>
+                    <a href='/langurburja' className="py-2 px-7 bg-black text-white rounded-2xl hover:scale-105 transition-transform cursor-pointer">
                         Langur burja
-                    </button>
+                    </a>
                 </div>
             </div>
 
