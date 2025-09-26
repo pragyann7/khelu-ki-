@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
     return (
@@ -9,12 +10,12 @@ const Home = () => {
                 <h2 className="text-center mb-13">Should I play?</h2>
 
                 <div className="flex flex-col items-center gap-4">
-                    <a href='/taas' className="py-2 px-7 bg-black text-white rounded-2xl hover:scale-105 transition-transform cursor-pointer">
+                    <Link to='/taas' className="py-2 px-7 bg-black text-white rounded-2xl hover:scale-105 transition-transform cursor-pointer">
                         Taas
-                    </a>
-                    <a href='/langurburja' className="py-2 px-7 bg-black text-white rounded-2xl hover:scale-105 transition-transform cursor-pointer">
+                    </Link>
+                    <Link to='/langurburja' className="py-2 px-7 bg-black text-white rounded-2xl hover:scale-105 transition-transform cursor-pointer">
                         Langur burja
-                    </a>
+                    </Link>
                 </div>
             </div>
 
